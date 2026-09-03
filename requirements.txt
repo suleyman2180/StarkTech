@@ -1,0 +1,13 @@
+# StarkTech Suite - Opsiyonel Python Bağımlılıkları
+# Çekirdek modüller (falcao, shield, veronica, sombra, vision, mark85, friday,
+# jarvis) yalnızca Python standart kütüphanesini kullanır — ek kurulum gerekmez.
+#
+# Aşağıdakiler sadece ilgili modüller kullanıldığında gereklidir ve
+# modüller kendileri eksikse otomatik kurmayı dener:
+
+Pillow>=10.0.0        # mirage.py -> toplu resim formatı dönüştürme
+cryptography>=41.0.0  # codigo.py -> gerçek AES-256-GCM şifreleme
+
+# Sistem düzeyinde (pip DIŞI) opsiyonel araçlar:
+#   ffmpeg   -> mirage.py video/ses dönüştürme için (https://ffmpeg.org)
+#   ufw      -> shield.py Linux güvenlik duvarı yönetimi için
