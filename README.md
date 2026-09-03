@@ -446,9 +446,10 @@ kullanır.
 
 # 📜 Lisans
 
-Bu proje eğitim, geliştirme ve kişisel kullanım amacıyla oluşturulmuştur.
+Bu proje **MIT License** altında lisanslanmıştır.
 
-Lisans bilgileri proje geliştikçe güncellenecektir.
+Detaylar için [`LICENSE`](LICENSE) dosyasına bakabilirsiniz.
+
 
 ---
 
